@@ -166,7 +166,7 @@ var config = {
 			
 			// age_pyramid
 			
-			//{
+			{
 				name: "age_pyramid",
 				height: "200",
 				category: "demographics",

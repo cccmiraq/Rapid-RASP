@@ -30,11 +30,6 @@ var config = {
 				icon : "camp_idp_refugee_camp_60px_bluebox"
 			},
 			{
-				name : "management",
-				alias : "Camp Management",
-				icon : "cluster_CCCM_60px_bluebox"
-			},
-			{
 				name : "wash",
 				alias : "Water, sanitation and hygiene",
 				icon : "wash_sanitation_60px_bluebox"
@@ -45,8 +40,8 @@ var config = {
 				icon : "food_NFI_food_60px_bluebox"
 			},
 			{
-				name : "demographics",
-				alias : "Demographics",
+				name : "population",
+				alias : "Population",
 				icon : "activity_leadership_60px_bluebox"
 			},
 			{
@@ -55,8 +50,8 @@ var config = {
 				icon : "people_elderly_60px_bluebox"
 			},
 			{
-				name : "nfi",
-				alias : "Non-food items",
+				name : "background",
+				alias : "Background",
 				icon : "food_NFI_nonfood_item_60px_bluebox"
 			},
 			{

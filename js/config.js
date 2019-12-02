@@ -10,7 +10,7 @@ var config = {
 		lon : "coordinates_longitude",
 		
 		//Name field
-		name : "Camp_Name",
+		name : "site_name",
 		
 		//Unique identifier field
 		uid : "site_name",
@@ -55,9 +55,9 @@ var config = {
 				icon : "people_elderly_60px_bluebox"
 			},
 			{
-				name : "nfi",
-				alias : "Non-food items",
-				icon : "food_NFI_nonfood_item_60px_bluebox"
+				//name : "nfi",
+				//alias : "Non-food items",
+				//icon : "food_NFI_nonfood_item_60px_bluebox"
 			},
 			{
 				name : "shelter",
@@ -85,9 +85,9 @@ var config = {
 				icon : "cluster_protection_60px_bluebox"
 			},
 			{
-				name : "who_what",
-				alias : "Who is doing what ?",
-				icon : "activity_partnership_60px_bluebox"
+				//name : "who_what",
+				//alias : "Who is doing what ?",
+				//icon : "activity_partnership_60px_bluebox"
 			}
 			
 		],

@@ -13,7 +13,7 @@ var config = {
 		name : "Camp_name",
 		
 		//Unique identifier field
-		//uid : "site_name",
+		uid : "site_name",
 		
 		//Last update
 		last_update : "month",

@@ -84,7 +84,7 @@ var config = {
 				alias : "Protection",
 				icon : "cluster_protection_60px_bluebox"
 			},
-			//{
+			{
 				name : "who_what",
 				alias : "Who is doing what ?",
 				icon : "activity_partnership_60px_bluebox"

@@ -1,8 +1,8 @@
 var config = {
 		
 		//URL of the CSV
-		//url : "https://ckanviz.swige.unhcr.org/dataset/1607ef1c-9c47-4bf5-aeb5-0d9422e979d7/resource/9ff12198-8eee-4706-87dc-0ec62c4dfe50/download/dcccm-clustercccm-cluster-reporting-toolsRASPIraqRASP-masterdatarasp.csv",
-		url : "https://ckanviz.swige.unhcr.org/dataset/1607ef1c-9c47-4bf5-aeb5-0d9422e979d7/resource/9ff12198-8eee-4706-87dc-0ec62c4dfe50/download/rasp.csv",
+		url : "https://ckanviz.swige.unhcr.org/dataset/1607ef1c-9c47-4bf5-aeb5-0d9422e979d7/resource/9ff12198-8eee-4706-87dc-0ec62c4dfe50/download/dcccm-clustercccm-cluster-reporting-toolsRASPIraqRASP-masterdatarasp.csv",
+		//url : "https://ckanviz.swige.unhcr.org/dataset/1607ef1c-9c47-4bf5-aeb5-0d9422e979d7/resource/9ff12198-8eee-4706-87dc-0ec62c4dfe50/download/rasp.csv",
 		//Latitude field
 		lat : "coordinates_latitude",
 		

@@ -10,7 +10,7 @@ var config = {
 		lon : "coordinates_longitude",
 		
 		//Name field
-		name : "Camp_name",
+		name : "site_name",
 		
 		//Unique identifier field
 		uid : "site_name",

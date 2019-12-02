@@ -4,8 +4,8 @@ jQuery(document).ready(function() {
 	$('#left_of_map').hide();
 	$('#analysis').hide();
 
-	//var u = "https://ckanviz.swige.unhcr.org/dataset/1607ef1c-9c47-4bf5-aeb5-0d9422e979d7/resource/9ff12198-8eee-4706-87dc-0ec62c4dfe50/download/dcccm-clustercccm-cluster-reporting-toolsRASPIraqRASP-masterdatarasp.csv";
-	var u = "https://ckanviz.swige.unhcr.org/dataset/1607ef1c-9c47-4bf5-aeb5-0d9422e979d7/resource/9ff12198-8eee-4706-87dc-0ec62c4dfe50/download/rasp.csv";
+	var u = "https://ckanviz.swige.unhcr.org/dataset/1607ef1c-9c47-4bf5-aeb5-0d9422e979d7/resource/9ff12198-8eee-4706-87dc-0ec62c4dfe50/download/dcccm-clustercccm-cluster-reporting-toolsRASPIraqRASP-masterdatarasp.csv";
+	//var u = "https://ckanviz.swige.unhcr.org/dataset/1607ef1c-9c47-4bf5-aeb5-0d9422e979d7/resource/9ff12198-8eee-4706-87dc-0ec62c4dfe50/download/rasp.csv";
 	var map, loc, name;
 	d3.csv(u, function(data) {
 		d3.csv("data/fields.csv", function(fields) {

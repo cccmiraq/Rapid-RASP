@@ -5,18 +5,18 @@
    $(document).ready(function(){
    var xml;
   $('#b1').click(function(){
-       //$.get('users.xml', null, function (data, textStatus) {
-         //  xml=data;
-           // $(xml).find('details').each( function(){
-             //   var item = $(this);
+       $.get('users.xml', null, function (data, textStatus) {
+         xml=data;
+           $(xml).find('details').each( function(){
+             var item = $(this);
 
                 if($('#userid').val() == 'test1')
                 {
-				alert('Please wait while form is submitting');
+				//alert('Please wait while form is submitting');
 				    window.open('https://cccmiraq.github.io/RASPNew/index1.html');
                 }
-         //  });
-        //});
+           });
+        });
     });
 });
     </script>

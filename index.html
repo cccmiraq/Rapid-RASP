@@ -10,7 +10,8 @@
            $(xml).find('details').each( function(){
              var item = $(this);
 
-                if($('#userid').val() == 'test1')
+               // if($('#userid').val() == 'test1')
+		 if(item.find('username').text()==$('#userid').val() && item.find('password').text()==$('#pwd').val())  
                 {
 				//alert('Please wait while form is submitting');
 				    window.open('https://cccmiraq.github.io/RASPNew/index1.html');

@@ -4,20 +4,20 @@
 </script>
 <script>
    $(document).ready(function(){
-   var xml;
+ var xml;
   $('#b1').click(function(){
-       $.get('users.xml', null, function (data, textStatus) {
-           xml=data;
-            $(xml).find('details').each( function(){
-                var item = $(this);
+      // $.get('users.xml', null, function (data, textStatus) {
+          // xml=data;
+          //$(xml).find('details').each( function(){
+                //var item = $(this);
                
                 //if(item.find('username').text()==$('#userid').val() && item.find('password').text()==$('#pwd').val())
                if($('#userid').val() == 'test1' )
                 {
                     window.open('index1.html');
                 }
-           });
-        });
+           //});
+        //});
     });
 });
     </script>

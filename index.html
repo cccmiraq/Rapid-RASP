@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+<ul>
+<?php header("Content-type: text/xml; charset=utf-8"); 
+readfile('user.xml');
+?>
+</ul>
 <head>
     <title>IRAQ: RASP Map</title>
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/vnd.microsoft.icon" />
@@ -14,11 +19,6 @@
 
 </head>
 <body>
-<ul>
-<?php header("Content-type: text/xml; charset=utf-8"); 
-readfile('user.xml');
-?>
-</ul>
     <div class="container">
 		<div class="row">
 			<div class="col-md-4">

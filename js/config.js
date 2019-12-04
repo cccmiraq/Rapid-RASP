@@ -21,6 +21,8 @@ var config = {
 		//Type (for icon)
 		type : "site_typology",
 		
+		level : "icon_type",
+		
 		// Categories of attributes
 		categories : [
 		

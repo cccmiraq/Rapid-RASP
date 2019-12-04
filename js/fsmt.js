@@ -27,7 +27,7 @@ jQuery(document).ready(function() {
 			var marker_list = [];
 			for (var i in data){
 				if (data[i][config.lat] && data[i][config.lon]){
-					var tValues = ['camp', 'collective centre', 'collective_centre', 'reception centre'];
+					var tValues = ['Dispersed settlements', 'Collective centre', 'Self-settled site', 'Small settlement'];
 					var t = data[i][config.type]
 					t = t.toLowerCase()
 					var icon = L.icon({

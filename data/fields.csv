@@ -83,4 +83,4 @@ education/secondary_sufficient_certified_teachers,Are there sufficient certified
 education/school_aged_children_able_to_access_school,% of school aged children able to access formal school,string,education,,,
 education/challenges_formal_education,What are the major challenges to accessing formal education?,string,education,,,
 education/formal_education_schoo_age_not_attending,How many school-aged children have not been attending formal education in the last school year?,string,education,,,
-camp_name,Camp Name,string,general,,,
+camp_name,Site Name,string,general,,,

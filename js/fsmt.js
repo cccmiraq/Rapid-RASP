@@ -31,7 +31,8 @@ jQuery(document).ready(function() {
 					var t = data[i][config.type]
 					t = t.toLowerCase()
 					var icon = L.icon({
-						iconUrl: tValues.indexOf(t) !== -1 ? 'img/markers_icon/'+t+'.svg' : 'img/markers_icon/default.svg',
+						//iconUrl: tValues.indexOf(t) !== -1 ? 'img/markers_icon/'+t+'.png' : 'img/markers_icon/default.png',
+						iconUrl: tValues.indexOf(t) !== -1 ? 'img/markers_icon/'+t+'.png' : 'img/markers_icon/default.png',
 						iconSize:     [20, 20], // size of the icon 
 						iconAnchor:     [10,10] /**/
 					});

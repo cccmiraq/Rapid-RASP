@@ -29,7 +29,7 @@ var config = {
 			{
 				name : "general",
 				alias : "General",
-				icon : "camp_spontaneous_site_60px_bluebox.png"
+				icon : "camp_spontaneous_site_60px_bluebox"
 			},
 			{
 				name : "background",

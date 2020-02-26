@@ -40,8 +40,8 @@ var config = {
 				icon : "food_NFI_food_60px_bluebox"
 			},
 			{
-				name : "population",
-				alias : "Population",
+				name : "demographics",
+				alias : "Demographics",
 				icon : "activity_leadership_60px_bluebox"
 			},
 			{

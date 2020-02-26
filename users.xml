@@ -2,26 +2,26 @@
 <student>
 
 <details>
-<username>user1</username>
-<password>pass1</password>
+<username>rapiduser1</username>
+<password>rapidpass1</password>
 <email>user1@abc.com</email>
 </details>
 
 <details>
-<username>user2</username>
-<password>pass2</password>
+<username>rapiduser2</username>
+<password>rapidpass2</password>
 <email>user2@abc.com</email>
 </details>
 
 <details>
-<username>user3</username>
-<password>pass3</password>
+<username>rapiduser3</username>
+<password>rapidpass3</password>
 <email>user3@abc.com</email>
 </details>
 
 <details>
-<username>user4</username>
-<password>pass4</password>
+<username>rapiduser4</username>
+<password>rapidpass4</password>
 <email>user4@abc.com</email>
 </details>
 

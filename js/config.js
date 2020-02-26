@@ -229,6 +229,18 @@ var color_list = ['#0072bc','#4095cd','#7fb8dd','#bfdcee','#bfbfbf']
 				result= "none"
 			}
 		}
+		//yesred
+		if (tl == "yesred"){
+			if (v == "yes" || v == "Yes") {
+				result= "danger"
+			}
+			else if (v == "no" || v == "No") {
+				result= "success"
+			}
+			else {
+				result= "none"
+			}
+		}
 	//nogreen
 		else if (tl == "nogreen"){
 			if (v == "yes" || v == "Yes") {

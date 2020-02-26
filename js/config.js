@@ -55,6 +55,11 @@ var config = {
 				icon : "cluster_shelter_60px_bluebox"
 			},
 			{
+				name : "nfi",
+				alias : "Non-food items",
+				icon : "food_NFI_nonfood_item_60px_bluebox"
+			},
+			{
 				name : "protection",
 				alias : "Protection",
 				icon : "cluster_protection_60px_bluebox"

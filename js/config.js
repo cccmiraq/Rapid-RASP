@@ -30,14 +30,9 @@ var config = {
 				icon : "camp_idp_refugee_camp_60px_bluebox"
 			},
 			{
-				name : "wash",
-				alias : "Water, sanitation and hygiene",
-				icon : "wash_sanitation_60px_bluebox"
-			},
-			{
-				name : "food_security",
-				alias : "Food security",
-				icon : "food_NFI_food_60px_bluebox"
+				name : "background",
+				alias : "Background",
+				icon : "food_NFI_nonfood_item_60px_bluebox"
 			},
 			{
 				name : "demographics",
@@ -50,9 +45,9 @@ var config = {
 				icon : "people_elderly_60px_bluebox"
 			},
 			{
-				name : "background",
-				alias : "Background",
-				icon : "food_NFI_nonfood_item_60px_bluebox"
+				name : "wash",
+				alias : "Water, sanitation and hygiene",
+				icon : "wash_sanitation_60px_bluebox"
 			},
 			{
 				name : "shelter",
@@ -60,26 +55,21 @@ var config = {
 				icon : "cluster_shelter_60px_bluebox"
 			},
 			{
+				name : "protection",
+				alias : "Protection",
+				icon : "cluster_protection_60px_bluebox"
+			},
+			{
 				name : "health",
 				alias : "Health",
 				icon : "cluster_health_60px_bluebox"
-			},
-			{
-				name : "livelihood",
-				alias : "Livelihood and communication",
-				icon : "activity_public_information_60px_bluebox"
 			},
 			{
 				name : "education",
 				alias : "Education",
 				icon : "activity_learning_60px_bluebox"
 			},
-			{
-				name : "protection",
-				alias : "Protection",
-				icon : "cluster_protection_60px_bluebox"
-			},
-						
+									
 		],
 		
 		
